@@ -1,0 +1,115 @@
+html,body{
+    background-color: lightgray;
+    /* margin:5px 5px 5px 5px; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    text-align: center;
+    background-color: white;
+    height: 80px;
+    margin-top: 0%;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.topnav{
+    height: 80px;
+    margin-top: 0%;
+    background-color: #31118f; 
+    width: 100%;
+}
+
+.topnav ul{
+    list-style-type: none;
+}
+
+.topnav a{
+    text-decoration: none;
+    float: left;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    margin-right: 20px;
+    line-height: 80px;
+}
+
+.cc{
+    /* position: relative; */
+    float: left;
+    margin: 10px;
+}
+
+.card1{
+    margin: 15px;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.card{
+    margin: 15px;
+    background-color: white;
+    padding: 10px;
+}
+
+.images{
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.footer{
+    background-color: gray;
+    width: 100%;
+    line-height: 60px;
+    overflow: hidden;
+    margin: 0%;
+    text-align: center;
+    /* margin: 5px; */
+}
+
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #31118f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.container {
+    padding: 16px;
+    width: 22%;
+    margin: auto;
+}
+  
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
